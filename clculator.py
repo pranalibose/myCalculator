@@ -63,7 +63,7 @@ if __name__ == '__main__':
     button8 = Button(window, text=' 8 ', fg='black', bg='white', command=lambda: press(8), height=1, width=7)
     button8.grid(row=4, column=1)
 
-    button9 = Button(window, text=' 1 ', fg='black', bg='white', command=lambda: press(9), height=1, width=7)
+    button9 = Button(window, text=' 9 ', fg='black', bg='white', command=lambda: press(9), height=1, width=7)
     button9.grid(row=4, column=2)
 
     button0 = Button(window, text=' 0 ', fg='black', bg='white', command=lambda: press(0), height=1, width=7)
